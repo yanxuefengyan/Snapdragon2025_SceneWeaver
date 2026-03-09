@@ -1,0 +1,36 @@
+[
+  {
+    "id": "intro_basics",
+    "title": "SceneWeaver基础入门",
+    "description": "学习SceneWeaver的基本操作和核心概念",
+    "author": "官方教程",
+    "category": "basics",
+    "difficulty": "beginner",
+    "estimated_time": 30,
+    "created_time": "2026-02-19T00:53:11.368145",
+    "updated_time": "2026-02-19T00:53:11.368145",
+    "content": "# SceneWeaver基础入门\n\n欢迎来到SceneWeaver世界！...",
+    "tags": [
+      "入门",
+      "基础",
+      "新手"
+    ]
+  },
+  {
+    "id": "advanced_rendering",
+    "title": "高级渲染技巧",
+    "description": "掌握专业的渲染技术和效果制作",
+    "author": "高级用户",
+    "category": "rendering",
+    "difficulty": "advanced",
+    "estimated_time": 60,
+    "created_time": "2026-02-19T00:53:11.368145",
+    "updated_time": "2026-02-19T00:53:11.368145",
+    "content": "# 高级渲染技巧\n\n本教程将带你深入了解...",
+    "tags": [
+      "渲染",
+      "高级",
+      "专业"
+    ]
+  }
+]

@@ -1,0 +1,92 @@
+# SceneWeaver 配置文件
+
+# 图形配置
+graphics:
+  width: 1280
+  height: 720
+  fullscreen: false
+  vsync: true
+  effects_enabled: true
+  lighting_enabled: true
+  bloom: true
+  tone_mapping: true
+  gamma_correction: true
+  anti_aliasing: true
+  lighting_preset: "sunny_day"
+
+# AI配置 - 暂时禁用以避免YOLO加载问题
+ai:
+  device: "auto"  # auto, cpu, gpu, npu
+  detection_enabled: false  # 暂时禁用AI检测
+  use_local_models: false
+  local_models_dir: "models"
+  
+  # 目标检测配置
+  object_detection:
+    detector_type: "simple"  # 使用简化检测器
+    model_name: "yolov5s"
+    confidence_threshold: 0.5
+    tracking_enabled: true
+    use_local_model: false
+
+# 输入配置
+input:
+  mouse_sensitivity: 0.1
+  movement_speed: 2.5
+  enable_gestures: true
+
+# UI配置
+ui:
+  enabled: true
+  theme: "dark"
+  show_performance: true
+
+# 文件输入配置（新增）
+file_input:
+  enabled: true
+  max_recent_files: 10
+  allow_multiple_selection: true
+  enable_drag_drop: true
+  
+  # 文件类型过滤
+  file_filters:
+    image: [".png", ".jpg", ".jpeg", ".bmp", ".gif", ".tiff"]
+    video: [".mp4", ".avi", ".mov", ".mkv", ".wmv"]
+    audio: [".mp3", ".wav", ".ogg", ".flac", ".aac"]
+    model: [".pt", ".pth", ".onnx", ".pb", ".h5"]
+    config: [".yaml", ".yml", ".json", ".ini", ".cfg"]
+    text: [".txt", ".md", ".csv", ".xml"]
+
+# 性能配置
+performance:
+  target_fps: 60
+  memory_limit_mb: 512
+  enable_profiling: false
+
+# 日志配置
+logging:
+  level: "INFO"
+  console_output: true
+  log_to_file: true
+  log_file: "scene_weaver.log"
+
+# 资源配置
+resources:
+  cache_dir: "cache"
+  texture_quality: "high"  # low, medium, high
+  model_quality: "medium"  # low, medium, high
+
+# 插件配置
+plugins:
+  enabled: true
+  plugin_dirs:
+    - "plugins"
+    - "local_plugins"
+  auto_load: true
+
+# 社区配置
+community:
+  enable_sharing: false
+  auto_sync: false
+  tutorials_dir: "local_tutorials"
+  works_dir: "local_works"

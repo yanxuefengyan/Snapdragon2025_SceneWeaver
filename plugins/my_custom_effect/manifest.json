@@ -1,0 +1,12 @@
+{
+  "name": "{{plugin_name}}",
+  "version": "{{version}}",
+  "author": "{{author}}",
+  "description": "{{description}}",
+  "type": "{{plugin_type}}",
+  "entry_point": "plugin.py",
+  "dependencies": [],
+  "api_version": "1.0.0",
+  "compatible_versions": [">=1.0.0"],
+  "license": "MIT"
+}

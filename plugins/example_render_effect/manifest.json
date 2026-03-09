@@ -1,0 +1,12 @@
+{
+  "name": "example_render_effect",
+  "version": "1.0.0",
+  "author": "SceneWeaver Team",
+  "description": "示例渲染效果插件，展示模糊和色彩调整效果",
+  "type": "render_effect",
+  "entry_point": "plugin.py",
+  "dependencies": [],
+  "api_version": "1.0.0",
+  "compatible_versions": [">=1.0.0"],
+  "license": "MIT"
+}

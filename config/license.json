@@ -1,0 +1,20 @@
+{
+  "license_key": "LOCAL_DEV_LICENSE",
+  "license_type": "professional",
+  "user_email": "developer@localhost",
+  "user_name": "Local Developer",
+  "organization": "",
+  "issue_date": "2026-02-19T00:53:11.381953",
+  "expiry_date": "2027-02-19T00:53:11.381953",
+  "max_devices": 10,
+  "features": [
+    "basic_rendering",
+    "advanced_rendering",
+    "particle_effects",
+    "custom_shaders",
+    "ai_integration",
+    "multiplayer"
+  ],
+  "signature": "",
+  "is_valid": true
+}

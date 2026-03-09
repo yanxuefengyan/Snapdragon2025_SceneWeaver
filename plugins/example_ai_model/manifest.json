@@ -1,0 +1,12 @@
+{
+  "name": "example_ai_model",
+  "version": "1.0.0",
+  "author": "SceneWeaver Team",
+  "description": "示例AI模型插件，提供简单的图像分类功能",
+  "type": "ai_model",
+  "entry_point": "plugin.py",
+  "dependencies": ["numpy"],
+  "api_version": "1.0.0",
+  "compatible_versions": [">=1.0.0"],
+  "license": "MIT"
+}

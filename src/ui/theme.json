@@ -1,0 +1,133 @@
+{
+    "defaults": {
+        "colours": {
+            "normal_bg": "#45494E",
+            "hovered_bg": "#35393E",
+            "disabled_bg": "#25292E",
+            "selected_bg": "#193754",
+            "dark_bg": "#25292E",
+            "normal_text": "#FFFFFF",
+            "hovered_text": "#FFFFFF",
+            "disabled_text": "#808080",
+            "selected_text": "#FFFFFF",
+            "link_text": "#0000EE",
+            "link_hover": "#2222FF",
+            "link_selected": "#551A8B",
+            "text_shadow": "#000000",
+            "normal_border": "#505050",
+            "hovered_border": "#606060",
+            "disabled_border": "#404040",
+            "selected_border": "#303030"
+        },
+        "font": {
+            "name": "simhei",
+            "size": "18",
+            "regular_path": "C:/Windows/Fonts/simhei.ttf"
+        },
+        "misc": {
+            "shape": "rounded_rectangle",
+            "shape_corner_radius": "4",
+            "border_width": "1",
+            "shadow_width": "2",
+            "padding": "6"
+        }
+    },
+    "button": {
+        "colours": {
+            "normal_bg": "#45494E",
+            "hovered_bg": "#35393E",
+            "disabled_bg": "#25292E",
+            "selected_bg": "#193754"
+        },
+        "font": {
+            "name": "simhei",
+            "size": "16",
+            "regular_path": "C:/Windows/Fonts/simhei.ttf"
+        },
+        "misc": {
+            "shape": "rounded_rectangle",
+            "shape_corner_radius": "3",
+            "border_width": "1",
+            "shadow_width": "1"
+        }
+    },
+    "label": {
+        "colours": {
+            "normal_text": "#FFFFFF"
+        },
+        "font": {
+            "name": "simhei",
+            "size": "16",
+            "regular_path": "C:/Windows/Fonts/simhei.ttf"
+        }
+    },
+    "panel": {
+        "colours": {
+            "dark_bg": "#2A2E33",
+            "light_shadow": "#3A3E43",
+            "dark_shadow": "#1A1E23"
+        },
+        "misc": {
+            "shape": "rounded_rectangle",
+            "shape_corner_radius": "5",
+            "border_width": "1"
+        }
+    },
+    "menu_bar": {
+        "colours": {
+            "normal_bg": "#1E2227",
+            "hovered_bg": "#2E3237"
+        },
+        "font": {
+            "name": "simhei",
+            "size": "16",
+            "regular_path": "C:/Windows/Fonts/simhei.ttf"
+        },
+        "misc": {
+            "shape": "rectangle",
+            "border_width": "0"
+        }
+    },
+    "drop_down_menu": {
+        "colours": {
+            "normal_bg": "#2A2E33",
+            "hovered_bg": "#3A3E43",
+            "selected_bg": "#193754"
+        },
+        "font": {
+            "name": "simhei",
+            "size": "15",
+            "regular_path": "C:/Windows/Fonts/simhei.ttf"
+        },
+        "misc": {
+            "shape": "rounded_rectangle",
+            "shape_corner_radius": "3",
+            "border_width": "1"
+        }
+    },
+    "horizontal_slider": {
+        "colours": {
+            "dark_bg": "#2A2E33",
+            "light_shadow": "#3A3E43"
+        },
+        "misc": {
+            "shape": "rounded_rectangle",
+            "shape_corner_radius": "3"
+        }
+    },
+    "text_entry_line": {
+        "colours": {
+            "normal_bg": "#2A2E33",
+            "selected_bg": "#193754"
+        },
+        "font": {
+            "name": "simhei",
+            "size": "16",
+            "regular_path": "C:/Windows/Fonts/simhei.ttf"
+        },
+        "misc": {
+            "shape": "rectangle",
+            "border_width": "1"
+        }
+    }
+}
